@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DebetCards</name>
+    </assembly>
+    <members>
+        <member name="M:DebetCards.Controllers.CardController.Get(System.Int32)">
+            <summary>
+            Получение данных карты по id
+            </summary>
+            <param name="id"></param>
+            <returns>Card</returns>
+        </member>
+    </members>
+</doc>
