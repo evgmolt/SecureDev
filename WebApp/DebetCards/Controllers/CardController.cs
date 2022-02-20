@@ -1,5 +1,6 @@
 ﻿using DebetCards.Data;
 using DebetCards.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,9 +11,9 @@ namespace DebetCards.Controllers
     public class CardController : Controller
     {
         private readonly IRepository<Card> _context;
-        private readonly CardValidator _validator;
+        private readonly IValidator<Card> _validator;
 
-        public CardController(IRepository<Card> context, CardValidator validator)
+        public CardController(IRepository<Card> context, IValidator<Card> validator)
         {
             _context = context;
             _validator = validator;

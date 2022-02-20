@@ -78,3 +78,6 @@ F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\ref\DebetCards.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.xml
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.pdb
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.genruntimeconfig.cache
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

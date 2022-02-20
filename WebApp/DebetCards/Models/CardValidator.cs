@@ -11,7 +11,7 @@ namespace DebetCards.Models
             RuleFor(x => x.CardNumber.ToString().Length == _cardNumberLenght);
             RuleFor(x => x.Name.All(c => char.IsLetter(c) || c == ' '));
             RuleFor(x => x.CVC.ToString().Length == _cvcLength);
-            RuleFor(x => x.ValidUntilMonth).GreaterThan(0).GreaterThanOrEqualTo(12);
+            RuleFor(x => x.ValidUntilMonth).GreaterThan(0).LessThanOrEqualTo(12);
             RuleFor(x => x.ValidUntilYear).GreaterThanOrEqualTo(DateTime.Today.Year - 2000);
         }
     }

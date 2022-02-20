@@ -16,7 +16,7 @@ builder.Services.AddDbContext<CardDbContext>(options =>
         builder.Configuration.GetConnectionString("Postgres"),
         b => b.MigrationsAssembly("DebetCards"));
 });
-builder.Services.AddScoped<IRepository<Card>, CardRepository>();
+builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
 builder.Services.AddTransient<IValidator<Card>, CardValidator>();
 
 builder.Services.AddEndpointsApiExplorer();

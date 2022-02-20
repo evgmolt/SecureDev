@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DebetCards.Data
 {
-    internal sealed class CardRepository : IRepository<Card>
+    internal sealed class CardEFRepository : IRepository<Card>
     {
         private readonly CardDbContext _context;
-        public CardRepository(CardDbContext context)
+        public CardEFRepository(CardDbContext context)
         {
             _context = context;
         }
