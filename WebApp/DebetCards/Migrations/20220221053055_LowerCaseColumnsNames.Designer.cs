@@ -2,6 +2,7 @@
 using DebetCards.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DebetCards.Migrations
 {
     [DbContext(typeof(CardDbContext))]
-    partial class CardDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220221053055_LowerCaseColumnsNames")]
+    partial class LowerCaseColumnsNames
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,31 +27,25 @@ namespace DebetCards.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("card_id");
+                        .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CVC")
-                        .HasColumnType("integer")
-                        .HasColumnName("cvc");
+                        .HasColumnType("integer");
 
                     b.Property<long>("CardNumber")
-                        .HasColumnType("bigint")
-                        .HasColumnName("cardnumber");
+                        .HasColumnType("bigint");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("name");
+                        .HasColumnType("text");
 
                     b.Property<int>("ValidUntilMonth")
-                        .HasColumnType("integer")
-                        .HasColumnName("validuntilmonth");
+                        .HasColumnType("integer");
 
                     b.Property<int>("ValidUntilYear")
-                        .HasColumnType("integer")
-                        .HasColumnName("validuntilyear");
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

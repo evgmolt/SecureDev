@@ -16,13 +16,19 @@ builder.Services.AddDbContext<CardDbContext>(options =>
         builder.Configuration.GetConnectionString("Postgres"),
         b => b.MigrationsAssembly("DebetCards"));
 });
-builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
+//builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
+builder.Services.AddScoped<IRepository<Card>, CardDbRepository>();
 builder.Services.AddTransient<IValidator<Card>, CardValidator>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "DebetCards", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo 
+    { 
+        Title = "Debet Cards", 
+        Version = "v1", 
+        Description = "Geek Brains, факультет C#, курс Безопасная разработка"
+    });
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     c.IncludeXmlComments(xmlPath);

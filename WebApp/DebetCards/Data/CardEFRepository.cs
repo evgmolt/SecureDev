@@ -11,15 +11,17 @@ namespace DebetCards.Data
             _context = context;
         }
 
-        public async Task Add(Card item)
+        public async Task Add(Card card)
         {
-            await _context.Cards.AddAsync(item);
+            await _context.Cards.AddAsync(card);
             await _context.SaveChangesAsync();
         }
 
-        public async Task Delete(Card item)
+        public async Task DeleteById(int id)
         {
-            _context.Cards.Remove(item);
+            Card? card = _context.Cards.FirstOrDefault(i => i.Id == id);
+            if (card is null) return;
+            _context.Cards.Remove(card);
             await _context.SaveChangesAsync();
         }
 
@@ -33,9 +35,9 @@ namespace DebetCards.Data
             return await _context.Cards.FindAsync(id);
         }
 
-        public async Task Update(Card item)
+        public async Task Update(Card card)
         {
-            _context.Cards.Update(item);
+            _context.Cards.Update(card);
             await _context.SaveChangesAsync();
         }
     }

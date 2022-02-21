@@ -9,6 +9,6 @@ namespace DebetCards.Data
         Task<IEnumerable<T>> GetAll();
         Task Add(T item);
         Task Update(T item);
-        Task Delete(T item);
+        Task DeleteById(int id);
     }
 }

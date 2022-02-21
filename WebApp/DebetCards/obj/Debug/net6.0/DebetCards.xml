@@ -31,11 +31,11 @@
             <param name="card"></param>
             <returns></returns>
         </member>
-        <member name="M:DebetCards.Controllers.CardController.Delete(DebetCards.Models.Card)">
+        <member name="M:DebetCards.Controllers.CardController.Delete(System.Int32)">
             <summary>
             Удаление карты
             </summary>
-            <param name="card"></param>
+            <param name="id"></param>
             <returns></returns>
         </member>
     </members>

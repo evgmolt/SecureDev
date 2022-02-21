@@ -15,7 +15,12 @@
       "ProjectGuid": "15a62bcf-d1d6-4200-addf-92d5bdfc9d00",
       "DisplayName": "DebetCards",
       "ColorIndex": 1
+    },
+    "0dc43943-8b35-450f-a7cd-6ff8cd701d13": {
+      "ProjectGuid": "0dc43943-8b35-450f-a7cd-6ff8cd701d13",
+      "DisplayName": "PostgresTest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

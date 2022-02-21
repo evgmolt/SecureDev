@@ -10,12 +10,12 @@ namespace DebetCards.Controllers
     [Route("[controller]")]
     public class CardController : Controller
     {
-        private readonly IRepository<Card> _context;
+        private readonly IRepository<Card> _repository;
         private readonly IValidator<Card> _validator;
 
         public CardController(IRepository<Card> context, IValidator<Card> validator)
         {
-            _context = context;
+            _repository = context;
             _validator = validator;
         }
 
@@ -27,7 +27,7 @@ namespace DebetCards.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get([FromQuery] int id)
         {
-            var result = await _context.GetById(id);
+            var result = await _repository.GetById(id);
             return Ok(result);
         }
 
@@ -38,7 +38,7 @@ namespace DebetCards.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await _context.GetAll();
+            var result = await _repository.GetAll();
             return Ok(result);
         }
 
@@ -51,7 +51,7 @@ namespace DebetCards.Controllers
         public async Task<ActionResult> Create([FromBody] Card card)
         {
             if (!_validator.Validate(card).IsValid) return BadRequest();
-            await _context.Add(card);
+            await _repository.Add(card);
             return Ok();
         }
 
@@ -64,20 +64,19 @@ namespace DebetCards.Controllers
         public async Task<ActionResult> Update([FromBody] Card card)
         {
             if (!_validator.Validate(card).IsValid) return BadRequest();
-            await _context.Update(card);
+            await _repository.Update(card);
             return Ok();
         }
 
         /// <summary>
         /// Удаление карты
         /// </summary>
-        /// <param name="card"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
-        [HttpDelete]
-        public async Task<ActionResult> Delete([FromBody] Card card)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete([FromQuery] int id)
         {
-            if (!_validator.Validate(card).IsValid) return BadRequest();
-            await _context.Update(card);
+            await _repository.DeleteById(id);
             return Ok();
         }
     }
