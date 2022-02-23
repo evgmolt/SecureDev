@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DebetCards</name>
+    </assembly>
+    <members>
+        <member name="M:DebetCards.Controllers.CardController.Get(System.Int32)">
+            <summary>
+            Получение данных карты по id
+            </summary>
+            <param name="id"></param>
+            <returns>Card</returns>
+        </member>
+        <member name="M:DebetCards.Controllers.CardController.Get">
+            <summary>
+            Получение списка всех карт
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DebetCards.Controllers.CardController.Create(DebetCards.Models.Card)">
+            <summary>
+            Добавление карты
+            </summary>
+            <param name="card"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DebetCards.Controllers.CardController.Update(DebetCards.Models.Card)">
+            <summary>
+            Обновление данных карты
+            </summary>
+            <param name="card"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DebetCards.Controllers.CardController.Delete(System.Int32)">
+            <summary>
+            Удаление карты
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
