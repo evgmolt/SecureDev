@@ -20,7 +20,12 @@
       "ProjectGuid": "0dc43943-8b35-450f-a7cd-6ff8cd701d13",
       "DisplayName": "PostgresTest",
       "ColorIndex": 2
+    },
+    "aaed46a4-3f1b-4d64-b1d7-02578cfb911c": {
+      "ProjectGuid": "aaed46a4-3f1b-4d64-b1d7-02578cfb911c",
+      "DisplayName": "IdentityTest",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

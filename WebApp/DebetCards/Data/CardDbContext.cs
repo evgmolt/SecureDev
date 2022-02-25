@@ -1,4 +1,5 @@
 ﻿using DebetCards.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DebetCards.Data
@@ -6,6 +7,7 @@ namespace DebetCards.Data
     internal sealed class CardDbContext : DbContext
     {
         public DbSet<Card> Cards { get; set; }
+        public DbSet<User> Users { get; set; }
         public CardDbContext(DbContextOptions<CardDbContext> options) : base(options)
         {
         }
@@ -18,6 +20,7 @@ namespace DebetCards.Data
             modelBuilder.Entity<Card>().Property(u => u.CVC).HasColumnName("cvc");
             modelBuilder.Entity<Card>().Property(u => u.ValidUntilMonth).HasColumnName("validuntilmonth");
             modelBuilder.Entity<Card>().Property(u => u.ValidUntilYear).HasColumnName("validuntilyear");
+            modelBuilder.Entity<User>().ToTable("users");
         }
     }
 }

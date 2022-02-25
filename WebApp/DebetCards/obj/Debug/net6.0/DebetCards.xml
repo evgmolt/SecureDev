@@ -38,5 +38,17 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:DebetCards.Managers.IUserManager.GetUser(DebetCards.Models.LoginRequest)">
+            <summary> Возвращает пользователя по логину и паролю </summary>
+        </member>
+        <member name="M:DebetCards.Managers.IUserManager.CreateUser(DebetCards.Models.CreateUserRequest)">
+            <summary> Создает нового пользователя </summary>
+        </member>
+        <member name="T:DebetCards.Models.LoginRequest">
+            <summary> Запрос аутентификации пользователя по логину и паролю </summary>
+        </member>
+        <member name="T:DebetCards.Models.LoginResponse">
+            <summary> Информация об аутентификации пользователя </summary>
+        </member>
     </members>
 </doc>
