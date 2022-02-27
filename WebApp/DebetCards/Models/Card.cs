@@ -16,5 +16,15 @@ namespace DebetCards.Models
         public int ValidUntilMonth { get; set; }
         [Column("validuntilyear")]
         public int ValidUntilYear { get; set; }
+
+        public override string ToString()
+        {
+            return Id.ToString() + " " + 
+                   Name.ToString() + " " + 
+                   CardNumber.ToString() + " " +
+                   CVC.ToString() + " " +
+                   ValidUntilMonth.ToString().PadLeft(2, '0') + "/" +
+                   ValidUntilYear.ToString();
+        }
     }
 }

@@ -3,6 +3,7 @@ using DebetCards.Models;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using ReportService;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,7 @@ builder.Services.AddDbContext<CardDbContext>(options =>
 });
 //builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
 builder.Services.AddScoped<IRepository<Card>, CardDbRepository>();
+builder.Services.AddScoped<IReport<Card>, ReportToFile<Card>>();
 builder.Services.AddTransient<IValidator<Card>, CardValidator>();
 
 builder.Services.AddEndpointsApiExplorer();

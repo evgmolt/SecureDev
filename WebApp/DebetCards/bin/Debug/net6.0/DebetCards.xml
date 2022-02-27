@@ -17,6 +17,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:DebetCards.Controllers.CardController.GetReport(System.String)">
+            <summary>
+            Получение отчета
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:DebetCards.Controllers.CardController.Create(DebetCards.Models.Card)">
             <summary>
             Добавление карты

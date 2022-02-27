@@ -20,7 +20,17 @@
       "ProjectGuid": "0dc43943-8b35-450f-a7cd-6ff8cd701d13",
       "DisplayName": "PostgresTest",
       "ColorIndex": 2
+    },
+    "b80eef24-b54c-408b-b03f-7ace16eb5985": {
+      "ProjectGuid": "b80eef24-b54c-408b-b03f-7ace16eb5985",
+      "DisplayName": "ReportService",
+      "ColorIndex": 3
+    },
+    "aabdef5d-d79c-48ab-aa22-36b1ca4d4ac4": {
+      "ProjectGuid": "aabdef5d-d79c-48ab-aa22-36b1ca4d4ac4",
+      "DisplayName": "GACTest",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
