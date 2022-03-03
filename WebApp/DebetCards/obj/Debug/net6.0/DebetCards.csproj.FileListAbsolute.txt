@@ -67,7 +67,6 @@ F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.GeneratedM
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.AssemblyInfoInputs.cache
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.AssemblyInfo.cs
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.csproj.CoreCompileInputs.cache
-F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.MvcApplicationPartsAssemblyInfo.cs
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.MvcApplicationPartsAssemblyInfo.cache
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\staticwebassets.build.json
 F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\staticwebassets.development.json
@@ -81,3 +80,5 @@ F:\GeekBrains\SecureDev\WebApp\DebetCards\obj\Debug\net6.0\DebetCards.genruntime
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\ReportService.pdb

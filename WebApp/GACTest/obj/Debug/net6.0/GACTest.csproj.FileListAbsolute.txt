@@ -1,0 +1,17 @@
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\GACTest.exe
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\GACTest.deps.json
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\GACTest.runtimeconfig.json
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\GACTest.dll
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\ref\GACTest.dll
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\GACTest.pdb
+F:\GeekBrains\SecureDev\WebApp\GACTest\bin\Debug\net6.0\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.csproj.AssemblyReference.cache
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.AssemblyInfoInputs.cache
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.AssemblyInfo.cs
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.csproj.CoreCompileInputs.cache
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.csproj.CopyComplete
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.dll
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\ref\GACTest.dll
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.pdb
+F:\GeekBrains\SecureDev\WebApp\GACTest\obj\Debug\net6.0\GACTest.genruntimeconfig.cache

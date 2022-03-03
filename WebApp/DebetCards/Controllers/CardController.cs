@@ -3,6 +3,7 @@ using DebetCards.Models;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ReportService;
 
 namespace DebetCards.Controllers
 {
@@ -12,11 +13,13 @@ namespace DebetCards.Controllers
     {
         private readonly IRepository<Card> _repository;
         private readonly IValidator<Card> _validator;
+        private readonly IReport<Card> _reportService;
 
-        public CardController(IRepository<Card> context, IValidator<Card> validator)
+        public CardController(IRepository<Card> context, IValidator<Card> validator, IReport<Card> reportService)
         {
             _repository = context;
             _validator = validator;
+            _reportService = reportService;
         }
 
         /// <summary>
@@ -40,6 +43,18 @@ namespace DebetCards.Controllers
         {
             var result = await _repository.GetAll();
             return Ok(result);
+        }
+
+        /// <summary>
+        /// Получение отчета
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("/report/{filename}")]
+        public async Task<IActionResult> GetReport([FromQuery] string filename)
+        {
+            var result = await _repository.GetAll();
+            _reportService.CreateReport(filename, result);
+            return Ok();
         }
 
         /// <summary>

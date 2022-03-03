@@ -1,0 +1,12 @@
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.csproj.AssemblyReference.cache
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.GeneratedMSBuildEditorConfig.editorconfig
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.AssemblyInfoInputs.cache
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.AssemblyInfo.cs
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.csproj.CoreCompileInputs.cache
+F:\GeekBrains\SecureDev\WebApp\ReportService\bin\Debug\net6.0\ReportService.deps.json
+F:\GeekBrains\SecureDev\WebApp\ReportService\bin\Debug\net6.0\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\ReportService\bin\Debug\net6.0\ref\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\ReportService\bin\Debug\net6.0\ReportService.pdb
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ref\ReportService.dll
+F:\GeekBrains\SecureDev\WebApp\ReportService\obj\Debug\net6.0\ReportService.pdb

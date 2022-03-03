@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ReportService">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\ReportService\v4.0_1.0.0.0__f662f62251998193\ReportService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

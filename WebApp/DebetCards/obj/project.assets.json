@@ -1018,6 +1018,16 @@
             "rid": "win"
           }
         }
+      },
+      "ReportService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ReportService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportService.dll": {}
+        }
       }
     }
   },
@@ -3491,6 +3501,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ReportService/1.0.0": {
+      "type": "project",
+      "path": "../ReportService/ReportService.csproj",
+      "msbuildProject": "../ReportService/ReportService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3502,6 +3517,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.1.22076.6",
       "Npgsql >= 7.0.0-preview.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.0-preview.1",
+      "ReportService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.ComponentModel.Annotations >= 5.0.0"
     ]
@@ -3537,7 +3553,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\GeekBrains\\SecureDev\\WebApp\\ReportService\\ReportService.csproj": {
+              "projectPath": "F:\\GeekBrains\\SecureDev\\WebApp\\ReportService\\ReportService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
