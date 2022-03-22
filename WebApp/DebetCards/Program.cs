@@ -23,6 +23,7 @@ builder.Services.AddDbContext<CardDbContext>(options =>
         b => b.MigrationsAssembly("DebetCards"));
 });
 
+builder.Configuration.AddJsonFile("appsettings.ConfigClass.json");
 
 //builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
 builder.Services.AddScoped<IRepository<Card>, CardDbRepository>();
