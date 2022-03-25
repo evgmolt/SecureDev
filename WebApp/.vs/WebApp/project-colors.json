@@ -25,7 +25,12 @@
       "ProjectGuid": "aaed46a4-3f1b-4d64-b1d7-02578cfb911c",
       "DisplayName": "IdentityTest",
       "ColorIndex": 3
+    },
+    "27cc9ac8-25a4-402d-905e-f9ae8a9fa028": {
+      "ProjectGuid": "27cc9ac8-25a4-402d-905e-f9ae8a9fa028",
+      "DisplayName": "DebetCardsTests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
