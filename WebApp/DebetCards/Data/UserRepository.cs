@@ -14,7 +14,7 @@ namespace DebetCards.Data
             _context = context;
         }
 
-        public async Task<User> GetByLoginAndPasswordHash(string login, byte[] passwordHash)
+        public async Task<User?> GetByLoginAndPasswordHash(string login, byte[] passwordHash)
         {
             return 
                 await _context.Users
