@@ -5,7 +5,7 @@ namespace DebetCards.Data
 {
     public interface IUserRepository
     {
-        Task<User> GetByLoginAndPasswordHash(string login, byte[] passwordHash);
+        Task<User?> GetByLoginAndPasswordHash(string login, byte[] passwordHash);
         Task CreateUser(User user);
     }
 }

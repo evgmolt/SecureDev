@@ -1,7 +1,10 @@
+using AutoMapper;
 using DebetCards.Data;
 using DebetCards.Managers;
+using DebetCards.Mapping;
 using DebetCards.Models;
 using DebetCards.Models.Jwt;
+using DebetCards.Report;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -25,12 +28,17 @@ builder.Services.AddDbContext<CardDbContext>(options =>
 
 builder.Configuration.AddJsonFile("appsettings.ConfigClass.json");
 
-//builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
-builder.Services.AddScoped<IRepository<Card>, CardDbRepository>();
+builder.Services.AddScoped<IRepository<Card>, CardEFRepository>();
+//builder.Services.AddScoped<IRepository<Card>, CardDbRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IValidator<Card>, CardValidator>();
 builder.Services.AddScoped<IUserManager, UserManager>();
 builder.Services.AddScoped<ILoginManager, LoginManager>();
+builder.Services.AddScoped<IReporter<CardForReport>, ReporterToConsole>();
+
+var mapperConfiguration = new MapperConfiguration(m => m.AddProfile(new MappingProfile()));
+var mapper = mapperConfiguration.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 builder.Services.Configure<JwtAccessOptions>(builder.Configuration.GetSection("Authentication:JwtAccessOptions"));
 

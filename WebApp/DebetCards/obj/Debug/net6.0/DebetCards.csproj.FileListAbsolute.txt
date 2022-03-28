@@ -88,3 +88,8 @@ F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\Microsoft.Extensions.
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\appsettings.ConfigClass.json
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.abstractions.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.assert.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.core.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.execution.dotnet.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\AutoMapper.dll

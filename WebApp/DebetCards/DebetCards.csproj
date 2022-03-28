@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
@@ -26,6 +27,7 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0-preview.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
