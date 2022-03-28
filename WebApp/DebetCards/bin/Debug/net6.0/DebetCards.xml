@@ -38,6 +38,12 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="M:DebetCards.Controllers.ReportController.Get">
+            <summary>
+            Создание отчета - списка всех карт
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:DebetCards.Managers.IUserManager.GetUser(DebetCards.Models.LoginRequest)">
             <summary> Возвращает пользователя по логину и паролю </summary>
         </member>

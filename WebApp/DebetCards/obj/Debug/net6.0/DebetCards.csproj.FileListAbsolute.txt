@@ -92,3 +92,4 @@ F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.abstractions.dl
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.assert.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.core.dll
 F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\xunit.execution.dotnet.dll
+F:\GeekBrains\SecureDev\WebApp\DebetCards\bin\Debug\net6.0\AutoMapper.dll

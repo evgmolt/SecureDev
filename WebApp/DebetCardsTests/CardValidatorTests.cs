@@ -10,8 +10,8 @@ namespace DebetCardsTests
 {
     public class CardValidatorTests
     {
-        private CardValidator _validator;
-        private CardBuilder _cardBuilder;
+        private readonly CardValidator _validator;
+        private readonly CardBuilder _cardBuilder;
 
         public CardValidatorTests()
         {
