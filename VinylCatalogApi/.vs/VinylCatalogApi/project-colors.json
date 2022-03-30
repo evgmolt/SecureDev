@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e6f52f6d-b2b5-4f38-b6e8-42bc58402bae": {
+      "ProjectGuid": "e6f52f6d-b2b5-4f38-b6e8-42bc58402bae",
+      "DisplayName": "VinylCatalogApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
