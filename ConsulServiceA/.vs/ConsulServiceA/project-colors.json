@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e6c79499-6029-4127-b172-faf1f2f18f2e": {
+      "ProjectGuid": "e6c79499-6029-4127-b172-faf1f2f18f2e",
+      "DisplayName": "ConsulServiceA",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
